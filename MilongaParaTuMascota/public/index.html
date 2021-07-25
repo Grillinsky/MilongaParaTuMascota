@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/styles.css">
+    <script src="https://kit.fontawesome.com/37b6b13bc4.js" crossorigin="anonymous"></script>
+    <title>Milonga para tu Mascota</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" id="logo"><h2> Milonga para tu Mascota</h2></div>
+
+            <div class="navLinks" id="navLink">
+                <a class="icon" onclick="showLinks()" href="#"><i class="fas fa-bars fa-2x"></i></a>
+                <a class="dropdown navBtn hide" href=""> Productos </a><!--Dropdown con cada producto-->
+                <a class="navBtn hide" href="">Delivery</a>
+                <a class="navBtn hide" href="">Nosotros</a>
+                <a class="navBtn hide" href="">Contacto</a>
+                
+            </div>
+
+        </nav>
+    </header>
+    <main>
+    <section class="productos" id="productos">
+        <!--                    COMIDA PERRO                   -->
+        <h2>Comida Perro</h2>
+        <div class="containerComidaPerro" id="containerComidaPerro">
+            <!-- cards de las comidas para perro con  precio x kilo + boton de pedido -->
+            <div class="card" id="comidaPerro1">
+                <img src="/Css/Imagenes/DogChowAdultos.png" alt="Comida para perro adulto DogChow">
+                <div class="cardDescription">
+                    <h3>DogChow Adulto</h3>
+                    <i class="fa fa-dollar-sign ">240 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro2">
+                <img src="/Css/Imagenes/ExcellentPerroAdulto.png" alt="Comida para perro adulto Excellent">
+                <div class="cardDescription">
+                    <h3>Excellent Adulto</h3>
+                    <i class="fa fa-dollar-sign ">260 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro3">
+                <img src="/Css/Imagenes/PedigreeRazasPequeñas.png" alt="Comida para perro adulto razas pequeñas Pedigree">
+                <div class="cardDescription">
+                    <h3>Pedigree Razas Pequeñas</h3>
+                    <i class="fa fa-dollar-sign ">220 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro4">
+                <img src="/Css/Imagenes/PedigreeAdulto.png" alt="Comida para perro adulto Pedigree">
+                <div class="cardDescription">
+                    <h3>Pedigree Adulto</h3>
+                    <i class="fa fa-dollar-sign ">200 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro5">
+                <img src="/Css/Imagenes/DogSelectionAdulto.png" alt="Comida para perro adulto Dog Selection">
+                <div class="cardDescription">
+                    <h3>Selection Adulto</h3>
+                    <i class="fa fa-dollar-sign ">170 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro6">
+                <img src="/Css/Imagenes/VitalcanCachorro.png" alt="Comida para perro cachorro VitalCan">
+                <div class="cardDescription">
+                    <h3>VitalCan Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">200 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro7">
+                <img src="/Css/Imagenes/RoscoAdulto.png" alt="Comida para perro adulto Rosco">
+                <div class="cardDescription">
+                    <h3>Rosco Adulto</h3>
+                    <i class="fa fa-dollar-sign ">120 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro8">
+                <img src="/Css/Imagenes/CooperacionAdulto.jpg" alt="Comida para perro adulto Cooperación">
+                <div class="cardDescription">
+                    <h3>Cooperación Adulto</h3>
+                    <i class="fa fa-dollar-sign ">130 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro9">
+                <img src="/Css/Imagenes/RazaAdultos.png" alt="Comida para perro adulto Raza">
+                <div class="cardDescription">
+                    <h3>Raza Adulto</h3>
+                    <i class="fa fa-dollar-sign ">140 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaPerro10">
+                <img src="/Css/Imagenes/RazaCachorros.jpg" alt="Comida para perro cachorro Raza">
+                <div class="cardDescription">
+                    <h3>Raza Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">150 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+        </div>
+        <!--                        COMIDA GATO          -->
+        <h2>Comida Gato</h2>
+        <div class="containerComidaGato" id="containerComidaGato">
+            <!-- cards de las Comida para gato con  precio + boton de pedido -->
+            <div class="card" id="comidaGato1">
+                <img src="/Css/Imagenes/GatiAdultos.png" alt="Comida para gato adulto Gati">
+                <div class="cardDescription">
+                    <h3>Gati Adulto</h3>
+                    <i class="fa fa-dollar-sign ">210 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaGato2">
+                <img src="/Css/Imagenes/WhiskasAdulto.jpg" alt="Comida para gato adulto Whiskas">
+                <div class="cardDescription">
+                    <h3>Whiskas Adulto</h3>
+                    <i class="fa fa-dollar-sign ">280 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaGato3">
+                <img src="/Css/Imagenes/WhiskasGatito.jpg" alt="Comida para gatito Whiskas">
+                <div class="cardDescription">
+                    <h3>Whiskas Gatitos</h3>
+                    <i class="fa fa-dollar-sign ">280 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaGato4">
+                <img src="/Css/Imagenes/ExcellentGatoAdulto.jpg" alt="Comida para gato adulo Excellent">
+                <div class="cardDescription">
+                    <h3>Excellent Gato Adulto</h3>
+                    <i class="fa fa-dollar-sign ">440 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaGato5">
+                <img src="/Css/Imagenes/RazaGatos.png" alt="Comida para gato adulto Raza">
+                <div class="cardDescription">
+                    <h3>Raza Gato Adulto</h3>
+                    <i class="fa fa-dollar-sign ">180 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="comidaGato6">
+                <img src="" alt="">
+                <div class="cardDescription">
+                    <h3>Doggi Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">150 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+        </div>
+        <h2>Comida</h2>
+        <div class="containerPiedras" id="piedrasGatos">
+            <!-- cards de las comidas para gato  / perro con  precio x kilo + boton de pedido -->
+            <div class="card" id="piedras1">
+                <img src="/Css/Imagenes/Piedra_Sanitaria_Lager.jpg.webp" alt="Piedras sanitarias para gato marca Lager">
+                <div class="cardDescription">
+                    <h3>Doggi Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">150 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="piedras2">
+                <img src="/Css/Imagenes/Piedra_Sanitaria_Lager.jpg.webp" alt="">
+                <div class="cardDescription">
+                    <h3>Doggi Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">150 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="colchon1">
+                <img src="/Css/Imagenes/colchonSanitaro.jpg.webp" alt="Colchon sanitario para gatos a base de madera marca Garompa">
+                <div class="cardDescription">
+                    <h3>Doggi Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">150 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card" id="colchon2">
+                <img src="/Css/Imagenes/colchonSanitaro.jpg.webp" alt="">
+                <div class="cardDescription">
+                    <h3>Doggi Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">150 x kilo</i>
+                </div>
+                <button class="cardButton">Hacer pedido</button>
+            </div>
+        </div>
+        <h2>Comida</h2>
+        <div class="containerExtras" id="extras">
+            <!-- cards de las comidas para gato  / perro con  precio x kilo + boton de pedido -->
+            <div class="card" id="colchonSanitario">
+                <img src="" alt="">
+                <div class="cardDescription">
+                    <p></p>
+                </div>
+                <button class="cardButton"></button>
+            </div>
+            <div class="card" id="bocaditosPerro">
+                <img src="" alt="">
+                <div class="cardDescription">
+                    <p></p>
+                </div>
+                <button class="cardButton"></button>
+            </div>
+            <div class="card" id="bocaditosGato">
+                <img src="" alt="">
+                <div class="cardDescription">
+                    <p></p>
+                </div>
+                <button class="cardButton"></button>
+            </div>
+            <div class="card" id="alpiste">
+                <img src="" alt="">
+                <div class="cardDescription">
+                    <p></p>
+                </div>
+                <button class="cardButton"></button>
+            </div>
+        </div>
+    </section>
+        <section class="retiroDelivery" id="retiroDelivery">
+            <!-- Dividido 50% 50% con explicacion de retiro en casa / tiempo de delivery en bicicleta -->
+            <div id="retiro">
+                <div class="retiroDeliveryImg"><img src="/Css/Imagenes/PickUpEnCasa.svg" alt=""></div>
+                <div class="retiroDeliveryExplicacion"><p></p></div>
+            </div>
+            <div id="delivery">
+                <div class="retiroDeliveryImg"><img src="/Css/Imagenes/DeliveryEnBici.svg" alt=""></div>
+                <div class="retiroDeliveryExplicacion"><p></p></div>
+            </div>
+        </section>
+        <section class="nosotros" id="nosotros">
+            <!-- foto de Juli + pequeña historia + de -->
+            <div class="container">
+            <div class="nosotrosImg"><img src="" alt=""></div>
+            <div class="nosotrosHistoria"></div>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <div id="sociales">
+                <div class="icon"></div><div class="icon"></div>
+                <!-- links a instagram y link de mensaje directo x whatsapp -->
+            </div>
+            <div id="formulario">
+                <form action=""></form>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.7.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+    <script>
+    var x = document.querySelectorAll(".navBtn.hide");
+        function showLinks(){
+            for (var i = 0; i<x.length; i++){
+                x[i].classList.toggle("hide")
+            }
+        }
+    </script>
+</body>
+</html>
