@@ -1,0 +1,390 @@
+@font-face {
+    font-family: H1Prata;
+    src: url(/Css/Fonts/PrataH1/Prata-Regular.ttf);
+}
+@font-face {
+    font-family: H2Rasa;
+    src: url(/Css/Fonts/RasaH2/Rasa-Medium.ttf);
+}
+@font-face {
+    font-family: PRoboto;
+    src: url(/Css/Fonts/Roboto_Slab_P/RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Milonga;
+    src: url(/Css/Fonts/Milonga/Milonga-Regular.ttf);
+}
+html, body{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    font-family: PRoboto;
+    filter: opacity(.95);
+}
+body{
+    background-image: url(/Css/Imagenes/3.jpg);
+    background-size: 99%;
+}
+i:hover, button:hover{
+    cursor:pointer;
+}
+nav{
+    min-height: 12vh;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    position: fixed;
+    top: 0%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:rgba(255, 211, 42,0.95);
+    border: hsl(0, 0%, 0%) dashed 3px;
+    box-shadow: -6px -5px 0px 0px rgba(72, 84, 96,1.0);
+}
+.navLinks .navBtn{
+    font-family: H2Rasa;
+    font-size: 1.2em;
+    padding: .4em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navLinks .icon{
+    background-color:hsl(48, 100%, 58%);
+    text-align: center;
+    color: black;
+}
+#logo{
+    font-family: Milonga;
+    display: flex;
+    flex-direction: row ;
+}
+#logo h2{
+    font-size: 6vw;
+    transform: scaleY(1.3) scaleX(1.1);
+    background-color:rgba(255, 212, 41, 0.1);
+    align-self: center;
+}
+.hide{
+    display: none;
+}
+.productos{
+    width: 100vw;
+    padding: 0;
+    margin-top: calc(12vh + 1em);
+    height: auto;
+    background-color: rgba(206, 209, 206, 0.5);
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
+.productosTitle{
+    font-size: 2rem;
+    text-align: center;
+    text-anchor:start;
+    margin: 0%;
+}
+.containerProductosPerro{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    gap: .3em;
+}
+.containerProductosGato{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    gap: .5em;
+}
+.containerExtras{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    gap: .5em;
+}
+.card{
+    margin-bottom:3%;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 38vh;
+    background-color: rgba(255, 211, 42,1.0);
+    box-shadow: -1px 1px 4px 2px rgba(0,0,0,0.91);
+-webkit-box-shadow: -1px 1px 8px 4px rgba(0,0,0,0.91);
+-moz-box-shadow: -1px 1px 8px 4px rgba(0,0,0,0.91);
+    /* box-shadow: 16px -10px 0px 3px rgba(0,0,0,0.91);
+-webkit-box-shadow: 16px -10px 0px 3px rgba(0,0,0,0.91);
+-moz-box-shadow: 16px -10px 0px 3px rgba(0,0,0,0.91); */
+}
+.card img{
+    padding-top: 3%;
+    align-self: center;
+    height: 60%;
+}
+#mezclaGallina img{
+    width: 80%;
+}
+.cardDescription{
+    height: 30%;
+    padding-bottom: 5% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardDescription h3{
+    font-family: PRoboto;
+    font-size: 1rem;
+    margin: 2%;
+    margin-top: 0%;
+}
+.cardButton{
+    font-weight: 700;
+    height: 15%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+    border:rgba(0, 1, 2,1.0) dashed 2px;
+    background-color: rgba(52, 231, 228,1.0);
+    box-shadow: 6px -5px 0px 0px rgba(92, 104, 116,1.0);
+}
+.cardButton:hover{
+    transform: translate(2px, -2px);
+    box-shadow:  4px -3px 0px 0px rgba(92, 104, 116,1.0);
+}
+/* RETIRO O DELIVERY */
+.retiroDelivery{
+    min-height: 100vh;
+    z-index: 100;
+    background-color: rgba(255, 211, 42,0.9);
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+    box-shadow: -1px 1px 3px 5px rgba(0,0,0,1);
+-webkit-box-shadow: -1px 1px 3px 5px rgba(0,0,0,1) ;
+-moz-box-shadow: -1px 1px 3px 5px rgba(0,0,0,1) ;
+    display: flex;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.retiroDeliveryImg{
+    width: 80%;
+    margin: auto;
+}
+.retiroDeliveryImg h2{
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgba(255, 211, 42,0.95);
+    border: hsl(0, 0%, 0%) dashed 3px;
+    box-shadow: 6px -5px 0px 0px rgba(72, 84, 96,1.0);
+}
+.retiroDeliveryExplicacion p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+/*                              CONTACTO                        */
+.contacto{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    /* background-color: rgba(255, 211, 42,0.95);*/
+    border: hsl(0, 0%, 0%) solid 3px; 
+    background-color: rgba(255, 211, 42, 0.9);
+    width: 80vw;
+}
+.socialesTitulo{
+    font-family: Milonga;
+    font-size: 2rem;
+    justify-self: flex-start;
+}
+.socialesIcons{
+    display: flex;
+    justify-content: space-around;
+}
+.socialesIcons a{
+    color: black;
+}
+.socialesFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socialesFormulario form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border: #202524 solid 2px;
+}
+.socialesFormulario input{
+    width: 80%;
+    margin: 0%;
+    border: 0px;
+    height: 2rem;
+}
+.socialesFormulario ::placeholder{
+    color: black;
+    font-size: 1rem;
+}
+.socialesFormulario button{
+    margin: 0%;
+    border: 0cm;
+    width: 20%;
+}
+
+.socialesFormulario p{
+    text-align: justify;
+    width: 70%;
+}
+@media (min-width: 900px){
+    html, body{
+        overflow-x: hidden;
+        margin: 0%;
+        padding: 0%;
+        font-family: PRoboto;
+    }
+    body{
+        background-image: url(/Css/Imagenes/3.jpg);
+        background-size: 99%;
+    }
+    main{
+        height:fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(255, 255, 255, 0.9);
+        /* background-color: rgba(32, 37, 32, 0.5); */
+        background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+        position: fixed;
+        top: 0%;
+        width: 100vw;
+    }
+    nav .icon{
+        display: none;
+    }
+    #logo{
+        font-size: 1.8vw;
+        font-family: H1Prata;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .navLinks{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navLinks a{
+        /* font-family: H2Rasa;
+        font-size: 1.2em;
+        padding: .4em;
+        text-decoration: none;
+        text-align: center; */
+        background-color:rgba(255, 211, 42,1.0);
+        width: 5em;
+        border: hsl(0, 0%, 0%) dashed 3px;
+        box-shadow: 6px -5px 0px 0px rgba(72, 84, 96,1.0);
+        /* hsl(0, 0%, 25%) */
+
+    }
+    .productos{
+        width: 90vw;
+        padding: 2em 2em;
+        margin-top: 15vh;
+        height: auto;
+        background-color: rgba(32, 37, 32, 0.1);
+        background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+        border-radius: 5px;
+        box-shadow: inset -6px -6px -19px #202524,
+                inset 6px 6px -19px #424141;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 4%;
+        height: 25em;
+        background-color:
+        rgba(255, 211, 42,1.0);
+        box-shadow: -1px 1px 8px 4px rgba(0,0,0,0.91);
+    -webkit-box-shadow: -1px 1px 8px 4px rgba(0,0,0,0.91);
+    -moz-box-shadow: -1px 1px 8px 4px rgba(0,0,0,0.91);
+        /* box-shadow: 16px -10px 0px 3px rgba(0,0,0,0.91);
+    -webkit-box-shadow: 16px -10px 0px 3px rgba(0,0,0,0.91);
+    -moz-box-shadow: 16px -10px 0px 3px rgba(0,0,0,0.91); */
+    }
+    .card img{
+        align-self: center;
+        height: 75%;
+    }
+    .cardDescription{
+        height: 40%;
+    }
+    .cardDescription h3{
+        font-family: PRoboto;
+        font-size: 1.5em;
+        margin: 0%;
+    }
+    .cardButton{
+        height: 20%;
+        border:rgba(255, 211, 42,1.0) dashed 2px;
+        background-color: rgba(52, 231, 228,1.0);
+        box-shadow: 6px -5px 0px 0px rgba(72, 84, 96,1.0);
+    }
+    
+    .containerComida{
+        padding: 1%;
+        display: grid;
+        justify-content: space-around;
+        gap: 2em 2em;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .containerPipetas{
+        grid-area: pipetas;
+        display: grid;
+        justify-content: space-evenly;
+        gap: 3em 2em;
+        grid-template-columns: 25% 25%;
+        grid-template-rows: 40% 40%;
+    }
+    .containerPiedras{
+        grid-area: piedras;
+        display: grid;
+        justify-content: space-evenly;
+        gap: 3em 2em;
+        grid-template-columns: 25% 25%;
+        grid-template-rows: 40% 40%;
+    }
+    .containerExtras{
+        grid-area: extras;
+        display: grid;
+        justify-content: space-evenly;
+        gap: 3em 2em;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: 40% 40%;
+    }
+
+    .nosotros{
+        min-height: 100vh;
+    }
+    .contacto{
+        min-height: 100vh;
+    }
+}
