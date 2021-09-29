@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/styles.css">
+    <link rel="shortcut icon" href="/Css/Imagenes/favicon_io/favicon-32x32.png" type="image/x-icon">
+    <title>Forrajeria Milonga</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo" id="logo"><h2> Forrajeria Milonga</h2></div>
+
+            <div class="navLinks" id="navLink">
+                <a class="icon" onclick="showLinks()" href="#"><span class="hide-element">Navigation Menu</span><i class="fas fa-bars fa-2x"></i></a>
+                <a class="dropdown navBtn hide" href="#productos"> Productos </a><!--Dropdown con cada producto-->
+                <a class="navBtn hide" href="#retiroDelivery">Delivery</a>
+                <a class="navBtn hide" href="#contacto" >Contacto</a>
+                
+            </div>
+
+        </nav>
+    </header>
+    <main>
+    <section class="productos" id="productos">
+        <!--                    Productos PERRO                   -->
+        <h2 class="productosTitle">Productos para Perros</h2>
+        <div class="containerProductosPerro" id="containerProductosPerro">
+            <!-- cards de las comidas para perro con  precio x kilo + boton de pedido -->
+            <div class="card">
+                <img src="/Css/Imagenes/DogChowAdultos.png" alt="Comida para perro adulto DogChow">
+                <div class="cardDescription">
+                    <h3>DogChow Adulto</h3>
+                    <i class="fa fa-dollar-sign ">240 x kilo</i>
+                </div>
+                <button id="comidaPerro1Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/ExcellentPerroAdulto.png" alt="Comida para perro adulto Excellent">
+                <div class="cardDescription">
+                    <h3>Excellent Adulto</h3>
+                    <i class="fa fa-dollar-sign ">260 x kilo</i>
+                </div>
+                <button id="comidaPerro2Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/PedigreeRazasPequeñas.png" alt="Comida para perro adulto razas pequeñas Pedigree">
+                <div class="cardDescription">
+                    <h3>Pedigree<br> Razas Pequeñas</h3>
+                    <i class="fa fa-dollar-sign ">220 x kilo</i>
+                </div>
+                <button id="comidaPerro3Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/PedigreeAdulto.png" alt="Comida para perro adulto Pedigree">
+                <div class="cardDescription">
+                    <h3>Pedigree Adulto</h3>
+                    <i class="fa fa-dollar-sign ">200 x kilo</i>
+                </div>
+                <button id="comidaPerro4Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/DogSelectionAdulto.png" alt="Comida para perro adulto Dog Selection">
+                <div class="cardDescription">
+                    <h3>Selection Adulto</h3>
+                    <i class="fa fa-dollar-sign ">170 x kilo</i>
+                </div>
+                <button id="comidaPerro5Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/VitalcanCachorro.png" alt="Comida para perro cachorro VitalCan">
+                <div class="cardDescription">
+                    <h3>VitalCan Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">200 x kilo</i>
+                </div>
+                <button id="comidaPerro6Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/RoscoAdulto.png" alt="Comida para perro adulto Rosco">
+                <div class="cardDescription">
+                    <h3>Rosco Adulto</h3>
+                    <i class="fa fa-dollar-sign ">120 x kilo</i>
+                </div>
+                <button id="comidaPerro7Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/CooperacionAdulto.jpg" alt="Comida para perro adulto Cooperación">
+                <div class="cardDescription">
+                    <h3>Cooperación Adulto</h3>
+                    <i class="fa fa-dollar-sign ">130 x kilo</i>
+                </div>
+                <button id="comidaPerro8Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/RazaAdultos.png" alt="Comida para perro adulto Raza">
+                <div class="cardDescription">
+                    <h3>Raza Adulto</h3>
+                    <i class="fa fa-dollar-sign ">140 x kilo</i>
+                </div>
+                <button id="comidaPerro9Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/RazaCachorros.png" alt="Comida para perro cachorro Raza">
+                <div class="cardDescription">
+                    <h3>Raza Cachorro</h3>
+                    <i class="fa fa-dollar-sign ">150 x kilo</i>
+                </div>
+                <button id="comidaPerro10Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/PedigreePouch.png" alt="Pouch o sobre de comida humeda para perro Pedigree">
+                <div class="cardDescription">
+                    <h3>Pedigree Pouch</h3>
+                    <i class="fa fa-dollar-sign ">60 x sobre</i>
+                </div>
+                <button id="comidaPerro11Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/PalitosSnackPerro.png" alt="Snacks para perro palitos saborizados">
+                <div class="cardDescription">
+                    <h3>Palitos Saborizados</h3>
+                    <i class="fa fa-dollar-sign ">10 x3 Unidades</i>
+                </div>
+                <button id="comidaPerro12Btn" class="cardButton">Hacer pedido</button>
+            </div>
+        </div>
+        <!--                        PRODUCTOS GATO               -->
+        <h2 class="productosTitle">Productos para Gatos</h2>
+        <div class="containerProductosGato" id="containerProductosGato">
+            <!-- cards de las Comida para gato con  precio + boton de pedido -->
+            <div class="card">
+                <img src="/Css/Imagenes/GatiAdultos.png" alt="Comida para gato adulto Gati">
+                <div class="cardDescription">
+                    <h3>Gati Adulto</h3>
+                    <i class="fa fa-dollar-sign ">210 x kilo</i>
+                </div>
+                <button id="comidaGato1Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/WhiskasAdulto.png" alt="Comida para gato adulto Whiskas">
+                <div class="cardDescription">
+                    <h3>Whiskas Adulto</h3>
+                    <i class="fa fa-dollar-sign ">280 x kilo</i>
+                </div>
+                <button id="comidaGato2Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/WhiskasGatito.png" alt="Comida para gatito Whiskas">
+                <div class="cardDescription">
+                    <h3>Whiskas Gatitos</h3>
+                    <i class="fa fa-dollar-sign ">280 x kilo</i>
+                </div>
+                <button id="comidaGato3Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/ExcellentGatoAdulto.png" alt="Comida para gato adulo Excellent">
+                <div class="cardDescription">
+                    <h3>Excellent Gato Adulto</h3>
+                    <i class="fa fa-dollar-sign ">440 x kilo</i>
+                </div>
+                <button id="comidaGato4Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/RazaGatos.png" alt="Comida para gato adulto Raza">
+                <div class="cardDescription">
+                    <h3>Raza Gato Adulto</h3>
+                    <i class="fa fa-dollar-sign ">180 x kilo</i>
+                </div>
+                <button id="comidaGato5Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/WhiskasPouch.png" alt="Pouch o sobre de comida humeda para gato Whiskas">
+                <div class="cardDescription">
+                    <h3>Whiskas Pouch</h3>
+                    <i class="fa fa-dollar-sign ">60 x sobre</i>
+                </div>
+                <button id="comidaGato6Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/BedyWood.png" alt="Colchon sanitarias para gato marca BedyWood">
+                <div class="cardDescription">
+                    <h3>BedyWood <br> Colchon sanitario</h3>
+                    <i class="fa fa-dollar-sign ">110 x 1.8kilos</i>
+                </div>
+                <button id="piedras1Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/SaniCat.png" alt="Piedras Sanitarias SaniCat">
+                <div class="cardDescription">
+                    <h3>SaniCat <br>Piedras Sanitarias</h3>
+                    <i class="fa fa-dollar-sign ">120 x 2kilos</i>
+                </div>
+                <button id="piedras2Btn" class="cardButton">Hacer pedido</button>
+            </div>
+        </div>
+        <h2 class="productosTitle">Otras cosas</h2>
+        <div class="containerExtras" id="extras">
+            <!-- cards de las comidas para gato  / perro con  precio x kilo + boton de pedido -->
+            <div class="card">
+                <img src="/Css/Imagenes/MezclaConejo.png" alt="Conejin o comida compactada para conejos">
+                <div class="cardDescription">
+                    <h3>Conejin</h3>
+                    <i class="fa fa-dollar-sign ">100 x kilo</i>
+                </div>
+                <button id="conejinBtn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div id="mezclaGallina" class="card">
+                <img  src="/Css/Imagenes/MezclaGallina.jpg" alt="Mezcla de semillas, alimento para gallina">
+                <div class="cardDescription">
+                    <h3>Mezcla para Gallina</h3>
+                    <i class="fa fa-dollar-sign ">70 x kilo</i>
+                </div>
+                <button id="mezclaGallinaBtn" class="cardButton">Hacer pedido</button>
+            </div>
+        </div>
+    </section>
+    <section class="retiroDelivery" id="retiroDelivery">
+            <!-- Dividido 50% 50% con explicacion de retiro en casa / tiempo de delivery en bicicleta -->
+            <div id="retiro">
+                <h2>Encontranos en la Feria!</h2>
+                <div class="retiroDeliveryImg">
+                    <img src="/Css/Imagenes/PickUpEnCasa.svg" alt="Dibujo de nuestro local">
+                </div>
+                <div class="retiroDeliveryExplicacion">
+                    <p>Nos encontras el Domingo de 8:30 a 13:30 en la feria de San Francisco Solano, calle 24 y Monteverde</p>
+                </div>
+            </div>
+            <div id="delivery">
+                <h2>Te quedaste sin comida?</h2>
+                <div class="retiroDeliveryImg"><img src="/Css/Imagenes/DeliveryEnBici.svg" alt="Dibujo de nuestro delivery en bicicleta"></div>
+                <div class="retiroDeliveryExplicacion"><p>Todos los días disponible delivery en bicicleta por zona San Francisco Solano  (hasta 2km)</p></div>
+            </div>
+</section>
+    <section class="contacto" id="contacto">
+        <div id="sociales">
+                <h2 class="socialesTitulo">Milonga en Redes</h2>
+        <!-- links a instagram y link de mensaje directo x whatsapp -->
+            <div class="socialesIcons">
+                <a class="linkSociales" href="https://instagram.com/forrajes_milonga?utm_medium=copy_link" target="_blank"><span class="hide-element">Instagram</span><i class="fa fa-instagram fa-3x"></i></a>
+                <a href="https://wa.me/c/5491126843834" target="_blank"><span class="hide-element">WhatsApp</span><i class="fa fa-whatsapp fa-3x"></i></a>
+            </div>
+        </div>
+            <div class="socialesFormulario">
+                <p>O dejanos tu correo y te contactamos enseguida!</p>
+                <form id="socialesForm" action="">
+                    <input type="text" name="email" id="emailInput" placeholder="Tu correo electronico acá" aria-label="Email Input"><button type="submit"><i class="fa fa-arrow-right fa-2x slide-in-left"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerContacto">
+            <h4>Diseño y marcado by:</h4>
+            <a href="mailto:martine.grillo@gmail.com">Martin Grillo</a>
+            <div class="footerIcons">
+            <i class="fa fa-linkedin fa-2x"><a href="https://www.linkedin.com/in/martin-grillo-a78927201/"><span class="hide-element">LinkedIn Link</span></a></i>
+            <i class="fa fa-github fa-2x"><a href="https://github.com/Grillinsky"><span class="hide-element">GitHub Link</span></a></i>
+            <i class="fa fa-instagram fa-2x"><a href="https://www.instagram.com/grillinski/"><span class="hide-element">Instagram Link</span></a></i>
+            </div>
+        </div>
+        <div class="footerCopy"></div>
+    </footer>
+
+    <!-- MODAL PARA LOS PRODUCTOS -->
+    <div id="productModal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3 id="productModalTitle"></h3>
+        <img id="productModalImg" src="" alt="">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select name="kilos">
+                    <option id="modalOptionTitle"></option>
+                    <option id="modalOption1"></option>
+                    <option id="modalOption2"></option>
+                    <option id="modalOption3"></option>
+                    <option id="modalOption4"></option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio"></div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+
+    
+    <div id="comidaGato1Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Gati Adulto</h3>
+        <img src="/Css/Imagenes/GatiAdultos.png" alt="Comida para gato adulto Gati">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="comidaGato2Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Whiskas Adulto</h3>
+        <img src="/Css/Imagenes/WhiskasAdulto.png" alt="Comida para gato adulto Whiskas">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="comidaGato3Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Whiskas Gatitos</h3>
+        <img src="/Css/Imagenes/WhiskasGatito.png" alt="Comida para gatito Whiskas">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="comidaGato4Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Excellent Gato Adulto</h3>
+        <img src="/Css/Imagenes/ExcellentGatoAdulto.png" alt="Comida para gato adulo Excellent">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="comidaGato5Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Raza Gatos</h3>
+        <img src="/Css/Imagenes/RazaGatos.png" alt="Comida para gato adulto Raza">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="comidaGato6Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Whiskas Pouch</h3>
+        <img src="/Css/Imagenes/WhiskasPouch.png" alt="Pouch o sobre de comida humeda para gato Whiskas">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="piedras1Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>BedyWood Colhon Sanitario</h3>
+        <img src="/Css/Imagenes/BedyWood.png" alt="Colchon sanitarias para gato marca BedyWood">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Bolsas de 1.8k</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="piedras2Modal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Piedras Sanitarias SaniCat</h3>
+        <img src="/Css/Imagenes/SaniCat.png" alt="Piedras Sanitarias SaniCat">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Bolsas de 2k</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+    <div id="conejinModal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Conejin</h3>
+        <img  src="/Css/Imagenes/MezclaConejo.png" alt="Conejin o comida compactada para conejos">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>    
+    <div id="mezclaGallinaModal" class="modal">
+
+        <!--Modal content -->
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-content-product">
+        <h3>Mezcla para Gallinas</h3>
+        <img src="/Css/Imagenes/MezclaGallina.jpg" alt="Mezcla de semillas, alimento para gallina">
+        </div>
+        <div class="modal-content-pedido">
+            <div class="modal-form" id="modalForm">
+            <label for="Kilos">Elegi cantidad</label><br>
+            <div class="select">
+                <select id="kilos" name="kilos">
+                    <option>Kilos</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+            </div>
+            </div>
+            <div class="modal-precio" id="modalPrecio">$</div>
+        </div>
+            <button class="modalButton" type="submit">Agregar al Carrito</button>
+        </div>
+    
+    </div>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.7.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+<script src="https://kit.fontawesome.com/37b6b13bc4.js" crossorigin="anonymous"></script>
+<script src="/main.js"></script>
+</body>
+</html>
