@@ -37,8 +37,8 @@
                 </div>
                 <button id="comidaPerro1Btn" class="cardButton">Hacer pedido</button>
             </div>
-            <div class="card">
-                <img src="/Css/Imagenes/ExcellentPerroAdulto.png" alt="Comida para perro adulto Excellent">
+            <div class="card dimmed">
+                <img id="excellentImg" src="/Css/Imagenes/ExcellentPerroAdulto.png" alt="Comida para perro adulto Excellent">
                 <div class="cardDescription">
                     <h3>Excellent Adulto</h3>
                     <i class="fa fa-dollar-sign ">260 x kilo</i>
@@ -77,7 +77,7 @@
                 </div>
                 <button id="comidaPerro6Btn" class="cardButton">Hacer pedido</button>
             </div>
-            <div class="card">
+            <div class="card dimmed">
                 <img src="/Css/Imagenes/RoscoAdulto.png" alt="Comida para perro adulto Rosco">
                 <div class="cardDescription">
                     <h3>Rosco Adulto</h3>
@@ -85,7 +85,7 @@
                 </div>
                 <button id="comidaPerro7Btn" class="cardButton">Hacer pedido</button>
             </div>
-            <div class="card">
+            <div class="card dimmed">
                 <img src="/Css/Imagenes/CooperacionAdulto.jpg" alt="Comida para perro adulto Cooperación">
                 <div class="cardDescription">
                     <h3>Cooperación Adulto</h3>
@@ -154,7 +154,7 @@
                 </div>
                 <button id="comidaGato3Btn" class="cardButton">Hacer pedido</button>
             </div>
-            <div class="card">
+            <div class="card dimmed">
                 <img src="/Css/Imagenes/ExcellentGatoAdulto.png" alt="Comida para gato adulo Excellent">
                 <div class="cardDescription">
                     <h3>Excellent Gato Adulto</h3>
@@ -170,6 +170,7 @@
                 </div>
                 <button id="comidaGato5Btn" class="cardButton">Hacer pedido</button>
             </div>
+            
             <div class="card">
                 <img src="/Css/Imagenes/WhiskasPouch.png" alt="Pouch o sobre de comida humeda para gato Whiskas">
                 <div class="cardDescription">
@@ -177,6 +178,14 @@
                     <i class="fa fa-dollar-sign ">60 x sobre</i>
                 </div>
                 <button id="comidaGato6Btn" class="cardButton">Hacer pedido</button>
+            </div>
+            <div class="card">
+                <img src="/Css/Imagenes/CatChow.png" alt="Comida para gato Adulto marca CatChow">
+                <div class="cardDescription">
+                    <h3>CatChow Adulto</h3>
+                    <i class="fa fa-dollar-sign ">350 x kilo</i>
+                </div>
+                <button id="comidaGato7Btn" class="cardButton">Hacer pedido</button>
             </div>
             <div class="card">
                 <img src="/Css/Imagenes/BedyWood.png" alt="Colchon sanitarias para gato marca BedyWood">
@@ -289,308 +298,6 @@
             </div>
             </div>
             <div class="modal-precio" id="modalPrecio"></div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-
-    
-    <div id="comidaGato1Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Gati Adulto</h3>
-        <img src="/Css/Imagenes/GatiAdultos.png" alt="Comida para gato adulto Gati">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="comidaGato2Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Whiskas Adulto</h3>
-        <img src="/Css/Imagenes/WhiskasAdulto.png" alt="Comida para gato adulto Whiskas">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="comidaGato3Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Whiskas Gatitos</h3>
-        <img src="/Css/Imagenes/WhiskasGatito.png" alt="Comida para gatito Whiskas">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="comidaGato4Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Excellent Gato Adulto</h3>
-        <img src="/Css/Imagenes/ExcellentGatoAdulto.png" alt="Comida para gato adulo Excellent">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="comidaGato5Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Raza Gatos</h3>
-        <img src="/Css/Imagenes/RazaGatos.png" alt="Comida para gato adulto Raza">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="comidaGato6Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Whiskas Pouch</h3>
-        <img src="/Css/Imagenes/WhiskasPouch.png" alt="Pouch o sobre de comida humeda para gato Whiskas">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="piedras1Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>BedyWood Colhon Sanitario</h3>
-        <img src="/Css/Imagenes/BedyWood.png" alt="Colchon sanitarias para gato marca BedyWood">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Bolsas de 1.8k</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="piedras2Modal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Piedras Sanitarias SaniCat</h3>
-        <img src="/Css/Imagenes/SaniCat.png" alt="Piedras Sanitarias SaniCat">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Bolsas de 2k</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>
-    <div id="conejinModal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Conejin</h3>
-        <img  src="/Css/Imagenes/MezclaConejo.png" alt="Conejin o comida compactada para conejos">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
-        </div>
-            <button class="modalButton" type="submit">Agregar al Carrito</button>
-        </div>
-    
-    </div>    
-    <div id="mezclaGallinaModal" class="modal">
-
-        <!--Modal content -->
-        <div class="modal-content">
-        <span class="close">&times;</span>
-        <div class="modal-content-product">
-        <h3>Mezcla para Gallinas</h3>
-        <img src="/Css/Imagenes/MezclaGallina.jpg" alt="Mezcla de semillas, alimento para gallina">
-        </div>
-        <div class="modal-content-pedido">
-            <div class="modal-form" id="modalForm">
-            <label for="Kilos">Elegi cantidad</label><br>
-            <div class="select">
-                <select id="kilos" name="kilos">
-                    <option>Kilos</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
-                <div class="select_arrow">
-                </div>
-            </div>
-            </div>
-            <div class="modal-precio" id="modalPrecio">$</div>
         </div>
             <button class="modalButton" type="submit">Agregar al Carrito</button>
         </div>
